@@ -1,4 +1,5 @@
 import './style.css';
+import './loading-component.css';
 import { manageNavbar, reportManager } from './modules/UIManager.js';
 import { dataFiller, searchValidator, celsiusToFahrenheit } from './modules/helpers.js';
 import weatherReport from './modules/weatherAPI.js';
@@ -11,6 +12,9 @@ const handleSearch = () => {
 
   searchBtn.addEventListener('click', (e) => {
     e.preventDefault();
+    const loader = document.getElementById('loading-component');
+    loader.classList.add('is-active');
+
     const userInput = searchField.value.trim();
     if (searchValidator(userInput)) {
       weatherReport(userInput)
@@ -18,18 +22,21 @@ const handleSearch = () => {
           dataFiller(response);
           searchField.value = '';
           unit.textContent = '°C';
+          loader.classList.remove('is-active');
         })
         .catch(() => {
           // eslint-disable-next-line no-undef
           $('#errorModal').modal('show');
           displayError.textContent = 'City not found';
           searchField.value = '';
+          loader.classList.remove('is-active');
         });
     } else {
       // eslint-disable-next-line no-undef
       $('#errorModal').modal('show');
       displayError.textContent = 'Invalid input. Enter a valid city name';
       searchField.value = '';
+      loader.classList.remove('is-active');
     }
   });
 };
