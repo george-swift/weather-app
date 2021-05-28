@@ -22,11 +22,15 @@
   "homepage": "https://github.com/george-swift/weather-app#readme",
   "devDependencies": {
     "css-loader": "^5.2.6",
+    "dotenv-webpack": "^7.0.2",
     "file-loader": "^6.2.0",
     "style-loader": "^2.0.0",
     "webpack": "^5.38.0",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2",
     "webpack-image-resize-loader": "^4.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
   }
 }
