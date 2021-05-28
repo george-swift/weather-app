@@ -45,6 +45,12 @@ p {
   margin-bottom: 0;
 }
 
+.highlight {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 @media screen and (max-width: 1024px) {
   .w-fluid {
     width: 100%;
@@ -67,4 +73,36 @@ p {
   .navbar-brand {
     justify-content: center;
   }
+}
+
+.background-rain {
+  background-image: url('./assets/rain.jpg');
+}
+
+.background-clear {
+  background-image: url('./assets/clear.jpg');
+}
+
+.background-clouds {
+  background-image: url('./assets/clouds.jpg');
+}
+
+.background-drizzle {
+  background-image: url('./assets/drizzle.jpg');
+}
+
+.background-dust {
+  background-image: url('./assets/dust.jpg');
+}
+
+.background-fog {
+  background-image: url('./assets/fog.jpg');
+}
+
+.background-haze {
+  background-image: url('./assets/haze.jpg');
+}
+
+.background-thunderstorm {
+  background-image: url('./assets/thunderstorm.jpg');
 }
