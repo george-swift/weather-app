@@ -2,7 +2,7 @@
 ![screenshot](./screenshot.png)
 
 ## Live Link
-Visit the [Weather App]() to get started
+Visit the [Weather App](https://george-swift.github.io/weather-app/) to get started
 
 ### Objectives:
 - Working with APIs
