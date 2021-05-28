@@ -10,7 +10,7 @@ const attributes = (() => ({
       class: 'col-md-4',
     },
     wrapper: {
-      class: 'center flex-column',
+      class: 'center flex-column highlight',
     },
     location: {
       class: 'display-6',
@@ -20,7 +20,7 @@ const attributes = (() => ({
       id: 'weather-description',
     },
     temperature: {
-      class: 'display-1 temperature',
+      class: 'display-1 temperature unit',
     },
   },
   widgets: {

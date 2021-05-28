@@ -1,7 +1,7 @@
 import attributes from './domManager.js';
 import { defineAttributes, createWidgets, creatListGroup } from './helpers.js';
 import Weather from '../assets/weather-app.gif';
-import Sunset from '../assets/sunset.png';
+import Temperature from '../assets/temperature.png';
 import Long from '../assets/longitude.png';
 import Lat from '../assets/latitude.png';
 import Telescope from '../assets/visibility.png';
@@ -56,10 +56,10 @@ const weather = () => {
 
   param.textContent = 'Now';
   data.textContent = 'Weather';
-  defineAttributes(icon, attributes.widgets.icon, Sunset);
+  defineAttributes(icon, attributes.widgets.icon, Temperature);
   figure.appendChild(icon);
   value.classList.add('weather-main');
-  wrapper.append(param, data, figure, icon, value);
+  wrapper.append(param, data, figure, value);
   return wrapper;
 };
 
@@ -78,7 +78,7 @@ const coordLong = () => {
   defineAttributes(icon, attributes.widgets.icon, Long);
   figure.appendChild(icon);
   value.classList.add('longitude');
-  wrapper.append(param, data, figure, icon, value);
+  wrapper.append(param, data, figure, value);
   return wrapper;
 };
 
@@ -97,7 +97,7 @@ const coordLat = () => {
   defineAttributes(icon, attributes.widgets.icon, Lat);
   figure.appendChild(icon);
   value.classList.add('latitude');
-  wrapper.append(param, data, figure, icon, value);
+  wrapper.append(param, data, figure, value);
   return wrapper;
 };
 
@@ -116,7 +116,7 @@ const visibility = () => {
   defineAttributes(icon, attributes.widgets.icon, Telescope);
   figure.appendChild(icon);
   value.classList.add('visibility');
-  wrapper.append(param, data, figure, icon, value);
+  wrapper.append(param, data, figure, value);
   return wrapper;
 };
 
@@ -135,7 +135,7 @@ const cloudiness = () => {
   defineAttributes(icon, attributes.widgets.icon, Cloud);
   figure.appendChild(icon);
   value.classList.add('cloudiness');
-  wrapper.append(param, data, figure, icon, value);
+  wrapper.append(param, data, figure, value);
   return wrapper;
 };
 
@@ -154,7 +154,7 @@ const wind = () => {
   defineAttributes(icon, attributes.widgets.icon, Windstock);
   figure.appendChild(icon);
   value.classList.add('wind-direction');
-  wrapper.append(param, data, figure, icon, value);
+  wrapper.append(param, data, figure, value);
   return wrapper;
 };
 
@@ -173,7 +173,7 @@ const collectionTime = () => {
   defineAttributes(icon, attributes.widgets.icon, DataTime);
   figure.appendChild(icon);
   value.classList.add('calculation-time');
-  wrapper.append(param, data, figure, icon, value);
+  wrapper.append(param, data, figure, value);
   return wrapper;
 };
 
