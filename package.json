@@ -21,8 +21,12 @@
   },
   "homepage": "https://github.com/george-swift/weather-app#readme",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "css-loader": "^5.2.6",
     "dotenv-webpack": "^7.0.2",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.3",
     "file-loader": "^6.2.0",
     "style-loader": "^2.0.0",
     "webpack": "^5.38.0",
