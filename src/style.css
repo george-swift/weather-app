@@ -47,8 +47,8 @@ p {
 
 .highlight {
   background-color: rgba(255, 255, 255, 0.2);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  text-align: center;
+  padding: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
