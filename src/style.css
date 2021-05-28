@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./assets/background.jpg');
+  background-position: 50% 50%;
+  color: white;
+}
+
+.navbar {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 2rem !important;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 30px;
+}
+
+.font-custom {
+  font-size: 15px !important;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+}
+
+.weather-icons {
+  width: 30px;
+}
+
+.text-smoke {
+  color: rgb(217, 217, 217);
+}
+
+.list-group-item {
+  height: 96px;
+  display: block;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.highlight {
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .w-fluid {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container-fluid {
+    padding-top: 0.5rem;
+    justify-content: center !important;
+  }
+
+  .navbar-brand,
+  form,
+  .converter {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .navbar-brand {
+    justify-content: center;
+  }
+}
+
+.background-rain {
+  background-image: url('./assets/rain.jpg');
+}
+
+.background-clear {
+  background-image: url('./assets/clear.jpg');
+}
+
+.background-clouds {
+  background-image: url('./assets/clouds.jpg');
+}
+
+.background-drizzle {
+  background-image: url('./assets/drizzle.jpg');
+}
+
+.background-dust {
+  background-image: url('./assets/dust.jpg');
+}
+
+.background-fog {
+  background-image: url('./assets/fog.jpg');
+}
+
+.background-haze {
+  background-image: url('./assets/haze.jpg');
+}
+
+.background-thunderstorm {
+  background-image: url('./assets/thunderstorm.jpg');
+}
