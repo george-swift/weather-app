@@ -33,6 +33,9 @@ const attributes = (() => ({
     wrapper: {
       class: 'py-3 px-3 flex-column center col-2',
     },
+    figure: {
+      class: 'py-2 m-0',
+    },
     icon: {
       alt: 'widget',
       class: 'weather-icons',

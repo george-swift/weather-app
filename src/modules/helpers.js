@@ -16,7 +16,7 @@ const createWidgets = () => {
 
   const data = document.createElement('p');
   const figure = document.createElement('figure');
-  figure.classList.add('m-0');
+  defineAttributes(figure, attributes.widgets.figure);
 
   const icon = document.createElement('img');
 
