@@ -66,7 +66,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
   \***********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"a6462d20346e14d3a67e.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/background.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/a6462d20346e14d3a67e.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/background.jpg?");
 
 /***/ }),
 
@@ -76,7 +76,7 @@ eval("module.exports = __webpack_require__.p + \"a6462d20346e14d3a67e.jpg\";\n\n
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"f866ff042c5a787c7cdb.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/clear.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/f866ff042c5a787c7cdb.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/clear.jpg?");
 
 /***/ }),
 
@@ -86,7 +86,7 @@ eval("module.exports = __webpack_require__.p + \"f866ff042c5a787c7cdb.jpg\";\n\n
   \***********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"f7760dc8808c1c71cf76.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/cloudiness.png?");
+eval("module.exports = __webpack_require__.p + \"images/f7760dc8808c1c71cf76.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/cloudiness.png?");
 
 /***/ }),
 
@@ -96,7 +96,7 @@ eval("module.exports = __webpack_require__.p + \"f7760dc8808c1c71cf76.png\";\n\n
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"08b05cb3b3c72c8af509.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/clouds.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/08b05cb3b3c72c8af509.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/clouds.jpg?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("module.exports = __webpack_require__.p + \"08b05cb3b3c72c8af509.jpg\";\n\n
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"8e8d6fb81679bf2b346b.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/data-time.png?");
+eval("module.exports = __webpack_require__.p + \"images/8e8d6fb81679bf2b346b.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/data-time.png?");
 
 /***/ }),
 
@@ -116,7 +116,7 @@ eval("module.exports = __webpack_require__.p + \"8e8d6fb81679bf2b346b.png\";\n\n
   \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"39a4b746c1ff0290e8cd.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/drizzle.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/39a4b746c1ff0290e8cd.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/drizzle.jpg?");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("module.exports = __webpack_require__.p + \"39a4b746c1ff0290e8cd.jpg\";\n\n
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"1448196a2f7322347341.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/dust.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/1448196a2f7322347341.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/dust.jpg?");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ eval("module.exports = __webpack_require__.p + \"1448196a2f7322347341.jpg\";\n\n
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"99836c3ea7bd9cef8c37.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/fog.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/99836c3ea7bd9cef8c37.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/fog.jpg?");
 
 /***/ }),
 
@@ -146,7 +146,7 @@ eval("module.exports = __webpack_require__.p + \"99836c3ea7bd9cef8c37.jpg\";\n\n
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"a57b5b65efd6111b19b6.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/haze.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/a57b5b65efd6111b19b6.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/haze.jpg?");
 
 /***/ }),
 
@@ -156,7 +156,7 @@ eval("module.exports = __webpack_require__.p + \"a57b5b65efd6111b19b6.jpg\";\n\n
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"f32f7b02a2e4f1e7e4b9.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/latitude.png?");
+eval("module.exports = __webpack_require__.p + \"images/f32f7b02a2e4f1e7e4b9.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/latitude.png?");
 
 /***/ }),
 
@@ -166,7 +166,7 @@ eval("module.exports = __webpack_require__.p + \"f32f7b02a2e4f1e7e4b9.png\";\n\n
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"e62badd5ed8a06b6f832.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/longitude.png?");
+eval("module.exports = __webpack_require__.p + \"images/e62badd5ed8a06b6f832.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/longitude.png?");
 
 /***/ }),
 
@@ -176,7 +176,7 @@ eval("module.exports = __webpack_require__.p + \"e62badd5ed8a06b6f832.png\";\n\n
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"eafa142c06f336fed2ad.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/rain.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/eafa142c06f336fed2ad.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/rain.jpg?");
 
 /***/ }),
 
@@ -186,7 +186,7 @@ eval("module.exports = __webpack_require__.p + \"eafa142c06f336fed2ad.jpg\";\n\n
   \************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"593de69c50d7a2c498fc.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/temperature.png?");
+eval("module.exports = __webpack_require__.p + \"images/593de69c50d7a2c498fc.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/temperature.png?");
 
 /***/ }),
 
@@ -196,7 +196,7 @@ eval("module.exports = __webpack_require__.p + \"593de69c50d7a2c498fc.png\";\n\n
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"07094676bc64189d862b.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/thunderstorm.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/07094676bc64189d862b.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/assets/thunderstorm.jpg?");
 
 /***/ }),
 
@@ -206,7 +206,7 @@ eval("module.exports = __webpack_require__.p + \"07094676bc64189d862b.jpg\";\n\n
   \***********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"f86d4c24c02b47028181.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/visibility.png?");
+eval("module.exports = __webpack_require__.p + \"images/f86d4c24c02b47028181.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/visibility.png?");
 
 /***/ }),
 
@@ -216,7 +216,7 @@ eval("module.exports = __webpack_require__.p + \"f86d4c24c02b47028181.png\";\n\n
   \************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"dc3636cc1a66a423a635.gif\";\n\n//# sourceURL=webpack://weather-app/./src/assets/weather-app.gif?");
+eval("module.exports = __webpack_require__.p + \"images/dc3636cc1a66a423a635.gif\";\n\n//# sourceURL=webpack://weather-app/./src/assets/weather-app.gif?");
 
 /***/ }),
 
@@ -226,7 +226,7 @@ eval("module.exports = __webpack_require__.p + \"dc3636cc1a66a423a635.gif\";\n\n
   \***************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"0dd43faf915de4367bfb.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/wind-direction.png?");
+eval("module.exports = __webpack_require__.p + \"images/0dd43faf915de4367bfb.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/wind-direction.png?");
 
 /***/ }),
 
