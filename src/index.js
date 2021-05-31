@@ -1,5 +1,5 @@
-import './style.css';
-import './loading-component.css';
+import './stylesheets/style.css';
+import './stylesheets/loading-component.css';
 import { manageNavbar, reportManager } from './modules/UIManager.js';
 import { dataFiller, searchValidator, celsiusToFahrenheit } from './modules/helpers.js';
 import weatherReport from './modules/weatherAPI.js';
