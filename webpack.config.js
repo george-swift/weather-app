@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 const path = require('path');
 const dotenv = require('dotenv');
 const webpack = require('webpack');
