@@ -1,6 +1,3 @@
-/* eslint-disable-next-line import/no-unresolved */
-require('dotenv').config();
-
 describe('Async function', () => {
   const mockWeatherReport = {
     data: {
