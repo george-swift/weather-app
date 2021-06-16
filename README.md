@@ -48,6 +48,8 @@ unavailable for a given city, a modal will appear with respective information.
 - If not already redirected, visit `http://localhost:8080/` in your browser to use the Weather App with dev server.
 - To terminate the server, enter `Ctrl + C` in your terminal
 
+## Testing
+The Weather app uses the Jest test unit. Run `npm test` to test the application
 ## Authors
 
 👤 &nbsp; **Ubong George**

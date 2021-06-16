@@ -1,6 +1,7 @@
+/* eslint-disable import/no-unresolved */
 const path = require('path');
-/* eslint-disable-next-line import/no-unresolved */
-const Dotenv = require('dotenv-webpack');
+const dotenv = require('dotenv');
+const webpack = require('webpack');
 
 module.exports = {
   mode: 'development',
@@ -14,8 +15,8 @@ module.exports = {
     assetModuleFilename: 'images/[hash][ext][query]',
   },
   plugins: [
-    new Dotenv({
-      ignoreStub: false,
+    new webpack.DefinePlugin({
+      'process.env': JSON.stringify(dotenv.config().parsed),
     }),
   ],
   module: {
